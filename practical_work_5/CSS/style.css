@@ -19,15 +19,15 @@
       }  
       div.container div.row:nth-child(1) div.section1{
       background-color: #ff0000;
-      margin:0 0 0 250px; 
+      margin:0 0 0 150px; 
       }
       div.container div.row:nth-child(2) div.section2{
         background-color: #ff7300;
-      margin:0 0 0 250px;
+      margin:0 0 0 150px;
         }
       div.container div.row:nth-child(3) div.section3{
         background-color: #88ff00;
-      margin:0 0 0 250px;
+      margin:0 0 0 150px;
       }
   }
   @media screen and (min-width:769px) and (max-width:992px){
@@ -62,15 +62,15 @@
       }
       div.container div.row:nth-child(1) div.section1{
       background-color: #008cff;
-      margin:0 0 0 400px; 
+      margin:0 0 0 410px; 
       }
       div.container div.row:nth-child(2) div.section2{
         background-color: #f200ff;
-      margin:0 0 0 400px;
+      margin:0 0 0 410px;
         }
       div.container div.row:nth-child(3) div.section3{
         background-color: #00ff2a;
-      margin:0 0 0 890px;
+      margin:0 0 0 900px;
       }
     }
    
