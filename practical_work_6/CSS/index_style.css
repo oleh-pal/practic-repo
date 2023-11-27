@@ -29,9 +29,13 @@ h1{
 div p{
     font-size: 120%;
 }
+.container{
+    display: flex;
+
+}
 @media (min-width:993px){
   a{
-    display: inline-block;
+    flex: 1 0 auto;
   }
 }
  @media (min-width:769px ) {
