@@ -18,3 +18,25 @@ a{
 h2{
     text-align: center;
 }
+@media (min-width:992px){
+    .container{
+        display: flex;
+         }
+    div{
+        flex: 1;
+    }     
+  }
+
+ @media(min-width:767px ) and (max-width:992px){
+    .container{
+        display: flex;
+        flex-flow: column;
+       
+    }
+ }
+ @media  (max-width:767px) {
+    .container{
+        display: flex;
+        flex-flow: column;
+    }
+ }

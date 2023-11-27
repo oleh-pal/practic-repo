@@ -27,3 +27,29 @@ thead tr:nth-child(odd) {
 tbody tr td:nth-child(5){
     text-align:justify;
 }
+@media (min-width:992px){
+    thead tr th{
+        font-size: 130%;
+    }
+    tbody tr td {
+        font-size: 120%;
+    }
+}
+ @media(min-width:767px ) and (max-width:992px){
+    thead tr th {
+        font-size: 120%;
+    }
+
+    tbody tr td {
+        font-size: 110%;
+    }
+ }
+ @media  (max-width:767px) {
+    thead tr th {
+        font-size: 110%;
+    }
+
+    tbody tr td {
+        font-size: 100%;
+    }
+ }
