@@ -1,0 +1,40 @@
+a#biography{
+    color: aqua;
+}
+a#biography:visited{
+    color:red;
+}
+a#nowadays{
+    color: blueviolet;
+}
+a#nowadays:visited{
+    color:orangered;
+}
+a#friends{
+    color: brown;
+ }
+a#friends:visited{
+    color:orange;
+ }
+a#gallery{
+    color: burlywood;
+}
+a#gallery:visited{
+    color:greenyellow;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+}
+div p{
+    font-size: 120%;
+}
+@media (min-width:993px){
+  a{
+    display: inline-block;
+  }
+}
+ @media (min-width:769px ) {
+    
+ }
+ 

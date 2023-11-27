@@ -1,0 +1,29 @@
+tbody tr:nth-child(even){
+    background-color: grey;
+}
+ thead,tbody,tr,td,th{
+    border: black solid 1px;
+}
+td,tr{
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+}
+a {
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+thead tr:nth-child(odd) {
+    text-align: center;
+    background-color: #008000;
+    color: white;
+    font-weight: bold;
+}
+tbody tr td:nth-child(5){
+    text-align:justify;
+}
