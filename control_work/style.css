@@ -72,6 +72,13 @@ div#div4 h4{
 td,th{
     border: #ffffff solid 1px;
 }
+h1, h2, h3{
+    font-family: 'Roboto';
+}
+p,li{
+    font-family: 'Sora', sans-serif;
+    color: black;
+}
 @media(max-width:767px){
     .container{
         display: flex;
@@ -96,4 +103,29 @@ td,th{
         flex:2;
         margin: 10px;
        }
+}
+@media(min-width:992px)and (max-width:1200px){
+
+}
+@media(min-width:1200px){
+    .container{
+        display: flex;
+    }
+    .row{
+        display: flex;
+    }
+    .row2{
+        display: flex;
+       }
+       .row,.row2{
+        flex:1;
+       }
+    div#div1,div#div2{
+        margin: 0 10px 0 10px;
+        flex:1;
+    }
+    div#div3, div#div4{
+        margin: 0 10px 0 10px;
+        flex:1;
+    }
 }
