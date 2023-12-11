@@ -77,4 +77,23 @@ td,th{
         display: flex;
         flex-direction: column;
     }
+       div#div1,div#div2,div#div3,div#div4{
+        margin: 10px;
+       }
+}
+@media(max-width:768px)and (max-width:992px){
+    .row{
+        display: flex;
+       }
+       .row2{
+        display: flex;
+       }
+       div#div1,div#div2{
+        flex:2;
+        margin: 10px ;
+       }
+       div#div3,div#div4{
+        flex:2;
+        margin: 10px;
+       }
 }
