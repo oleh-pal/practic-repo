@@ -1,27 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    padding: 2px;
+    margin: 10px;
+}
+img{
+   margin: 10px 10px 5px 20px;
+}
 div#div1{
-    background-color: aqua;
     display: flex;
     flex-direction: column-reverse;
+    background-color: #00ffd0;
+    justify-content: flex-start; 
+
 }
 div#div2{
-    background-color: #c3ff00;
+    background-color: #f7cdff;
     display: flex;
     flex-direction: column-reverse;
 }
 div#div3{
-    background-color: rgb(98, 0, 255);
+    background-color:#800000;
     display: flex;
     flex-direction: column-reverse;
 }
 div#div4{
-    background-color: rgb(255, 170, 0);
+    background-color: #fffb00;
     display: flex;
     flex-direction: column-reverse;
 }
-h4{
-    width: 150px;
+div#div1 h4{
+    border: solid black 1px;
     background-color: bisque;
+    text-align: center;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 90px;
+    margin: 50px 0 0 0;
+    font-size: 120%;
 }
-th,td{
-    border:  solid black 1.5px;
+div#div2 h4{
+    border: solid black 1px;
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 90px;
+    margin: 40px 0 0 0;
+    font-size: 120%;
+}
+div#div3 h4{
+    border: solid black 1px;
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 90px;
+    margin: 30px 0 0 0;
+    font-size: 120%;
+}
+div#div4 h4{
+    border: solid black 1px;
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 150px;
+    font-size: 120%;
+}
+td,th{
+    border: #ffffff solid 1px;
+}
+@media(max-width:767px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
